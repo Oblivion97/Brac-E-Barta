@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "997121188036",
+    "firebase_url": "https://web-proj-3e344.firebaseio.com",
+    "project_id": "web-proj-3e344",
+    "storage_bucket": "web-proj-3e344.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997121188036:android:cdc567781937e5c3",
+        "android_client_info": {
+          "package_name": "com.blakflag.firebasepushnotification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997121188036-g18f0bu1q1gftmaaotcsrei4bh4tenkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb7touy-_HzTTdDtNhT_6IgsCdX7XdZKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997121188036:android:209804c8bcd261f1",
+        "android_client_info": {
+          "package_name": "com.brac.bracebatra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997121188036-g18f0bu1q1gftmaaotcsrei4bh4tenkp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCb7touy-_HzTTdDtNhT_6IgsCdX7XdZKM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

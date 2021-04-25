@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.brac.bracebatra">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.activity.MainActivity">
+
+        </activity>
+        <activity
+            android:name=".ui.activity.SplashActivity"
+            android:noHistory="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.LoginActivity" />
+        <activity
+            android:name=".ui.activity.ProgramOrganizerActivity"
+            android:label="PO"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.activity.SchoolActivity"
+            android:label="Schools" />
+        <activity
+            android:name=".ui.activity.AttendanceActivity"
+            android:label="Attendence" />
+        <activity
+            android:name=".ui.activity.NewsActivity"
+            android:label="News" />
+        <activity
+            android:name=".ui.activity.EventActivity"
+            android:label="Event" />
+        <activity
+            android:name=".ui.activity.SyncActivity"
+            android:label="Sync" />
+
+        <!-- Firebase Notifications -->
+        <service android:name=".service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name=".service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity android:name=".util.Notification" />
+        <activity android:name=".ui.activity.StudentListActivity"></activity>
+    </application>
+
+</manifest>

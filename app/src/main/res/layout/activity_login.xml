@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bac_splash" />
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:padding="10dp">
+        <ImageView
+
+            android:scaleType="fitXY"
+            android:src="@drawable/icon"
+            android:layout_marginBottom="16dp"
+            android:layout_width="150dp"
+            android:layout_height="130dp" />
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="16dp"
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff">
+
+            <EditText
+                android:drawableLeft="@drawable/username"
+                android:textColor="#FFFFFF"
+                android:drawablePadding="16dp"
+                android:textColorHint="#ffffff"
+                android:id="@+id/et_login_id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="User Name"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_marginTop="16dp"
+            android:id="@+id/input_layout_name_ti"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#ffffff">
+
+            <EditText
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="16dp"
+                android:id="@+id/et_login_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColorHint="#ffffff" />
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:onClick="onLogin"
+            android:id="@+id/btn_login_submit"
+            style="@style/button_style"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login" />
+
+
+
+    </LinearLayout>
+</RelativeLayout>

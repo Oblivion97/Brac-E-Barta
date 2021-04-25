@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BRAC-e-Barta</string>
+    <string name="news_body">The Centre for Environmental and Geographic Information Services (CEGIS), a trustee organisation of the water resources ministry, has identified 29 high risk spots for riverbank erosion in 2017 through a detailed study of satellite data.  Development organisation BRAC is running an alert campaign in six upazilas of four districts, which are among the high-risk spots identified by CEGIS. The areas are Roumari upazila of Kurigram, Sariakandi upazila of Bogra, Pangsha and Kalukhali upazilas of Rajbari and Jajira and Noria upazilas of Shariatpur. The BRAC campaign is disseminating information to the local people about the intensity of bank erosion in these areas and consequent risk of loss.  Speakers revealed this information at an event titled ‘Consultative meeting on early warning for riverbank erosion’ today on Monday (21 August 2017). The government Department of Disaster Management, CEGIS and BRAC organised the event.</string>
+    <string name="event_body">Bangladesh is now among the top countries of origin for illegal immigrants in Europe. In the first six months of the current year (2017), 7,899 illegal Bangladeshi migrants entered Europe through the Mediterranean Sea route only, according to Frontex, an organisation of European Council working to coordinate between the border security forces of European Union member countries.  Speakers revealed this information at a consultation meeting today on Saturday (29 July 2017) at BRAC Centre Inn. Development organisation BRAC organised the event titled \'Situation analysis of illegal trafficking and irregular migration\' on the occasion of World Day against Trafficking in Persons.</string>
+
+    <style name="button_style">
+        <item name="android:textSize">16sp</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:background">@color/colorBtn</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
